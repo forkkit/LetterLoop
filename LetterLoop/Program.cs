@@ -6,7 +6,7 @@ namespace LetterLoop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter any letters");
+            Console.WriteLine("Enter Random letters to see magic...");
             var myString = Console.ReadLine().ToLower();
             foreach (var input in myString)
             {
